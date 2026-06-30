@@ -1,8 +1,3 @@
-[include mmu/base/*.cfg]
-[include mmu/addons/mmu_eject_buttons.cfg]
-[include mmu/optional/client_macros.cfg]
-[include mmu/optional/mmu_menu.cfg]
-[include printer_macros/emu_macros.cfg]
 [include mainsail.cfg]
 
 [include printer_cfg/mcu_main.cfg]
@@ -12,8 +7,7 @@
 [include printer_cfg/heated_bed.cfg]
 [include printer_cfg/extruder.cfg]
 [include printer_cfg/home.cfg]
-#[include printer_cfg/probe.cfg]
-[include printer_cfg/cartographer.cfg]
+[include printer_cfg/probe.cfg]
 [include printer_cfg/quad_gantry_level.cfg]
 [include printer_cfg/bed_mesh.cfg]
 [include printer_cfg/resonance.cfg]
@@ -37,8 +31,8 @@
 
 ##################################
 #  Permanent variables storage
-#[save_variables]
-#filename: ~/printer_data/config/variables.cfg
+[save_variables]
+filename: ~/printer_data/config/variables.cfg
 #   Required - provide a filename that would be used to save the
 #   variables to disk e.g. ~/variables.cfg
 

@@ -1,4 +1,15 @@
 # Voron 2.4R2 Config
+## Hardware & Electronic
+* Meanwell RS-25-5
+* Meanwell UHP-350-24
+* Raspberry Pi 4
+* BTT Octopus V1.?
+* BTT SB2240 V1.0
+* BTT U2C V1.?
+
+## Mods
+* Filamatrix
+
 ## Links
 ### Plugins
 * [UKAM](https://github.com/fbeauKmi/update_klipper_and_mcus)
